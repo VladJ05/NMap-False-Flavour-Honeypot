@@ -1,0 +1,9 @@
+{
+	"os" : "WS2025",
+	"honey_mac" : "00:0c:29:98:8a:6a",
+	"protocols" : ["http", "rdp", "smb"],
+	"scans" : {
+		"train" : ["big_scan_2025.pcapng"],
+		"test" : ["full_2025.pcapng"]
+	}
+}
