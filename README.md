@@ -1,1 +1,3 @@
 # NMap-False-Flavour-Honeypot
+
+NMap False Flavour Honeypot is a solution for automating the creation of configurable false flavour honeypots, capable of simulating various services of real Windows systems on Linux distributions by providing specific responses to NMap scans. The goal is to deceive potential attackers into believing they are interacting with a genuine Windows system. Based on a traffic capture and a configuration file, the proposed solution extracts a training and testing dataset used to train and evaluate a set of predictive models. These models, along with reference response packets automatically extracted from the capture, are packaged into an archive that represents a ready-to-run honeypot on a Linux system.
